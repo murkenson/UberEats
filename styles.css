@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 a {
   text-decoration: none;
@@ -8,7 +9,9 @@ a {
 ::-webkit-input-placeholder {
   color: #1d1d1d;
 }
-
+:-ms-input-placeholder {
+  color: #1d1d1d;
+}
 /*----------Styles of HEADER Content ---------------------*/
 
 .shadow {
@@ -92,15 +95,8 @@ a {
   border: 1px solid #e0e0e0;
   background: #ffffff;
   border-radius: 2px;
-  margin-right: 16px;
   font-size: 13px;
   outline: none;
-}
-
-@media screen and (min-width: 768px) {
-  .delivery-from {
-    margin-right: 0;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -158,6 +154,8 @@ a {
   font-size: 13px;
   color: #1d1d1d;
   cursor: pointer;
+  outline: none;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
@@ -179,6 +177,8 @@ a {
   font-size: 11px;
   color: #ffffff;
   cursor: pointer;
+  outline: none;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
@@ -334,6 +334,7 @@ a {
   background-color: #3b3b3b;
   border: none;
   -webkit-appearance: none;
+  outline: none;
 }
 
 .icon-world {
