@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Title and Description ================================ -->
   <title>UberEats</title>
-  <meta name="description" content="Uber, eat, ubereat booking" />
+  <meta name="description" content="Uber, eat, ubereat, booking" />
   <meta name="author" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="styles.css">
@@ -19,21 +19,18 @@
     <div class="shadow"></div>
     <div class="container">
       <div class="header-wrapper">
-
         <!-- LOGO UBER EATS ====================================== -->
         <div>
           <a href="#" name="top">
             <img class="head-logo" srcset="Assets/logo.svg " alt="UBER EATS Logo ">
           </a>
         </div>
-
         <div class="delivery">
           <div class="delivery-col-1">
             <div class="hidden-sm">
               <p class="delivery-text">When</p>
             </div>
-            <input class="delivery-loc-when" type="text" placeholder="ASAP">
-
+            <input class="delivery-from" type="text" placeholder="ASAP">
           </div>
           <div class="hidden-xs">
             <p class="delivery-text">to</p>
@@ -42,13 +39,13 @@
             <div class="hidden-sm">
               <p class="delivery-text">To</p>
             </div>
-            <form class="delivery-loc-form">
+            <form class="delivery-form">
               <img class="delivery-loc-img" src="Assets/search.svg">
               <input class="delivery-loc-input" type="text" placeholder="ul. Bolshaya Dmitrovka,22">
             </form>
           </div>
         </div>
-
+        <!-- BUTTON SIGN IN AND REGISTER ====================================== -->
         <div class="head-btn">
           <button class="sign-in">Sign In</button>
           <button class="register">Register</button>
@@ -144,13 +141,12 @@
         <img class="footer-logo" src="Assets/white-logo.svg " alt="UBER EATS Logo ">
         <hr class="footer-line">
         <div class="row">
-          <div class="col-xs-7 col-sm-3 ">
-
+          <!-- SELECT LANGUAGE ====================================== -->
+          <div class="col-xs-7 col-sm-3 col-ls-3 ">
             <select class="selector">
-              <option>English</option>
-              <option>Russian</option>
+              <option value="eng">English</option>
+              <optio value="rus">Russian</option>
             </select>
-
             <!-- UBER HASG TAG ====================================== -->
             <p class="hash-tag">
               <span style="color: #49A144">#</span>
@@ -169,7 +165,7 @@
             </div>
           </div>
           <!-- ABOUT ====================================== -->
-          <div class="col-xs-12 col-sm-offset-1 col-sm-4 col-lg-4">
+          <div class="col-xs-12 col-sm-4 col-lg-4">
             <div class="footer-link-about">
               <a class="footer-link" href="# ">About UberEats</a>
               <br>
