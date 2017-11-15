@@ -10,13 +10,14 @@
   <title>UberEats</title>
   <meta name="description" content="Uber, eat, ubereat, booking" />
   <meta name="author" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
   <header>
-    <div class="shadow"></div>
+    <div class="header__shadow"></div>
     <div class="container">
       <div class="header-wrapper">
         <!-- LOGO UBER EATS ====================================== -->
@@ -25,23 +26,23 @@
             <img class="head-logo" srcset="Assets/logo.svg " alt="UBER EATS Logo ">
           </a>
         </div>
-        <div class="delivery">
-          <div class="delivery-col-1">
+        <div class="header__delivery">
+          <div class="header__delivery-col-1">
             <div class="hidden-sm">
-              <p class="delivery-text">When</p>
+              <p class="header__delivery-text">When</p>
             </div>
-            <input class="delivery-from" type="text" placeholder="ASAP">
+            <input class="header__delivery-from" type="text" placeholder="ASAP">
           </div>
           <div class="hidden-xs">
-            <p class="delivery-text">to</p>
+            <p class="header__delivery-text">to</p>
           </div>
-          <div class="delivery-col-2">
+          <div class="header__delivery-col-2">
             <div class="hidden-sm">
-              <p class="delivery-text">To</p>
+              <p class="header__delivery-text">To</p>
             </div>
-            <form class="delivery-form">
-              <img class="delivery-loc-img" src="Assets/search.svg">
-              <input class="delivery-loc-input" type="text" placeholder="ul. Bolshaya Dmitrovka,22">
+            <form class="header__delivery-form">
+              <img src="Assets/location.svg">
+              <input class="header__delivery-to" type="text" placeholder="ul. Bolshaya Dmitrovka,22">
             </form>
           </div>
         </div>
